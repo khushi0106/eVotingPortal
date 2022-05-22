@@ -6,6 +6,7 @@ body{margin: 0px;
     width: 70px;
     height: 70px;
     margin-left:20px;
+    cursor: pointer;
 }
 .vote{
   width: 1000px;
@@ -40,15 +41,78 @@ p {
 
 .second{ font-size: 100%;
          background-color: white;
-         padding-top: 0px;
+         padding-top: 10px;
          position: relative;
-         text-align: center;
+         padding-left: 40px;
         }
 
+.second2{ font-size: 100%;
+         background-color: lightblue;
+         margin-top: 60px;
+         margin-left: 445px;
+         margin-right: 445px;
+         text-align: center;
+         position: relative;
+
+        }
+.login_button{
+        width: 150px;
+        height: 40px;
+}
 .third{  background-color: #d7fbe8 ;
          padding-bottom: 10px;
          padding-top: 10px;
          }
+
+label{
+  font-size: 20px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=date] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=tel] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=password]
+{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=number]
+{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 15%;
+  font-size: 17px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 
          .footer{ text-align: center;
            background-color: #398AB9;
